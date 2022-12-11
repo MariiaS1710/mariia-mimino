@@ -1,0 +1,64 @@
+<div>
+    <div class="modal">
+        <button type="button" class="close" data-modal-close>
+            <svg class="cros" width="18" height="18">
+                <use href="./img/icon.svg#icon-x"></use>
+            </svg>
+        </button>
+        <h2 class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
+        <form class="modal-form">
+            <ul class="list form-list">
+                <li class="form-list-item">
+                    
+                    <div class="input-wrap">
+                        <input type="text" name="name" id="name"                        
+                        placeholder="Ваше ім’я">
+                    </div>
+                    <label for="name" class="form-label">На кого забронювати столик?</label>
+                </li>
+                <li class="form-list-item">
+                    
+                    <div class="input-wrap">
+                        <input type="tel" name="tel" id="tel"                        
+                        placeholder="+38 (___) ___-__-__">
+                    </div>
+                    <label for="tel" class="form-label">Телефон</label>
+                </li>
+                <li class="form-list-item">
+                    
+                    <div class="input-wrap">
+                    <select id="amount" name="amount">
+                        <option value="2"selected>2</option>
+                        <option value="3">3</option>
+                        <option value="4" >4</option>
+                        <!-- ::-ms-expand {
+                        padding: 2em;
+                        color: red;
+                        background: black;
+                        } -->
+                    </select>
+                    </div>
+                    <label for="amount" class="form-label">Столик на яку кількість осіб?</label>
+                </li>
+                <li class="form-list-item">
+                    <div class="input-wrap">
+                        <select id="when" name="when">
+                            <option value="сьогодні" selected>Сьогодні</option>
+                            <option value="завтра">Завтра</option>
+                        </select>
+                        <!-- ::-ms-expand {
+                        padding: 2em;
+                        color: red;
+                        background: black;
+                        } -->
+                    </div>
+                    <label for="when" class="form-label">На яку дату бронювати?</label>
+                </li>
+            </ul>
+           
+            </div>
+            <button type="submit" class="btn">ОФОРМИТИ БРОНЮВАННЯ</button>
+        </form>
+    
+    </div>
+</div>
